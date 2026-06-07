@@ -1,0 +1,6 @@
+{
+  "name": "PM eVidya - Rajasthan Chapter",
+  "description": "Official inclusive learning portal for PM eVidya Rajasthan Chapter with dedicated school DTH channels (RJ148 to RJ152) and custom Indian Sign Language (ISL) resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

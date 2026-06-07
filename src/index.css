@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Accessibility Font Adjustments */
+.font-large-active p, 
+.font-large-active span, 
+.font-large-active li, 
+.font-large-active button, 
+.font-large-active td, 
+.font-large-active th,
+.font-large-active select,
+.font-large-active option,
+.font-large-active a {
+  font-size: 1.125rem !important; /* 18px */
+  line-height: 1.75 !important;
+}
+.font-large-active h1 { font-size: 2.50rem !important; }
+.font-large-active h2 { font-size: 1.95rem !important; }
+.font-large-active h3 { font-size: 1.45rem !important; }
+
+.font-xlarge-active p, 
+.font-xlarge-active span, 
+.font-xlarge-active li, 
+.font-xlarge-active button, 
+.font-xlarge-active td, 
+.font-xlarge-active th,
+.font-xlarge-active select,
+.font-xlarge-active option,
+.font-xlarge-active a {
+  font-size: 1.25rem !important; /* 20px */
+  line-height: 1.85 !important;
+}
+.font-xlarge-active h1 { font-size: 2.85rem !important; }
+.font-xlarge-active h2 { font-size: 2.25rem !important; }
+.font-xlarge-active h3 { font-size: 1.65rem !important; }
+
+/* Pulse animation for active Indian Sign Language widgets */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 4px rgba(217, 119, 6, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(217, 119, 6, 0.6);
+  }
+}
+
+.pulse-glow-saffron {
+  animation: pulseGlow 3s infinite;
+}
+
+/* Grid helper for desert styling/pattern */
+.bg-dot-grid {
+  background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Accessibility Highlight Outline */
+.sr-highlight-hover:hover {
+  outline: 3px solid #d97706;
+  outline-offset: 2px;
+}
